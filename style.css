@@ -92,22 +92,26 @@ h1 {
     margin: 20px 0 20px;
 }
 h3 {
-    color: white;
+    color: rgba(255, 255, 255, 0.817);
     font-size: 25px;
     margin-bottom: 50px;
 }
+.more {
+    border: 1px solid red;
+    padding: 5px;
+}
 .content a {
     font-size: 20px;
-    background: red;
-    color: white;
+    background: black;
+    color: rgb(36, 247, 8);
     display: inline-block;
     padding: 10px 30px;
     border-radius: 30px;
-    border: 2px solid white;
+    border: 2px solid red;
 }
 .content a:hover{
     background: transparent;
-    border: 2px solid red;
+    border: 2px solid white;
 }
 .about-me {
     background-color: #101010;
@@ -138,21 +142,9 @@ h3 {
     font-size: 18px;
     margin-bottom: 45px;
     text-align: justify;
+    padding: 25px;
 }
-.button {
-    background-color: red;
-    color: white;
-    border: 2px solid white;
-    font-weight: bold;
-    padding: 13px 30px;
-    border-radius: 30px;
-    transition: .5s;
-}
-.button:hover {
-    background-color: transparent;
-    border: 2px solid red;
-    cursor: pointer;
-}
+
 .service {
     background: #101010;
     width: 100%;
@@ -165,111 +157,53 @@ h3 {
     margin-bottom: 30px auto;
     text-align: center;
 }
-.box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 400px;
-}
-.card {
-    height: 340px;
-    width: 270px;
-    padding: 20px 35px;
-    background: #141414;
-    border-radius: 20px;
-    margin: 15px;
-    position: relative;
-    overflow: hidden;
-    text-align: center;
+.nana {
     border: 1px solid red;
+    margin-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.miya {
+    border: 1px solid red;
+    margin-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.akai {
+    border: 1px solid red;
+    margin-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.layla {
+    border: 1px solid red;
+    margin-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
 
-}
-.card i {
-    font-size: 50px;
-    display: block;
-    text-align: center;
-    margin: 35px 0;
-    color: red;
-}
-.card h5 {
-    color: white;
-    font-size: 23px;
-    margin-bottom: 15px;
-}
-.pra p {
-    color: #fcfc;
-    font-size: 16px;
-    line-height: 27px;
-    margin-bottom: 25px;
-    text-align: justify;
-}
-.pra p a {
-    background: red;
-    color: white;
-    border: 2px solid white;
-    font-weight: bold;
-    padding: 9px 22px;
-    border-radius: 30px;
-}
-.pra p a:hover {
-    background-color: transparent;
-    border: 2px solid red;
-    cursor: pointer;
-}
 .skill {
     background: linear-gradient(to right red, black);
     width: 100%;
     padding: 100px 0;
 }
-.skill-bar {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
-}
-.skill-bar p {
-    text-align: left;
-}
-.skill-box {
-    text-align: right;
-    width: 100%;
-    background-color: white;
-}
-.html {
-    width: 90%;
-    background-color: red;
-}
-.css {
-    width: 70%;
-    background-color: red;
-}
-.javascript {
-    width: 65%;
-    background-color: red;
-}
-.php {
-    width: 80%;
-    background-color: red;
-}
-.python {
-    width: 75%;
-    background-color: red;
-}
-.firebase {
-    width: 70%;
-    background-color: red;
-}
-.figma {
-    width: 80%;
-    background-color: red;
-}
-.sketch {
-    width: 60%;
-    background-color: red;
-}
-.photoshop {
-    width: 55%;
-    background-color: red;
-}
+
 .contact-me {
     width: 92%;
     padding: 50px;
@@ -311,7 +245,7 @@ h3 {
 footer {
     position: relative;
     width: 100%;
-    height: 400px;
+    height: 250px;
     background-color: #191919;
     display: flex;
     flex-direction: column;
@@ -330,6 +264,9 @@ footer p :nth-child(2) {
     width: 500px;
     text-align: center;
     line-height: 26px;
+}
+.yes {
+    color: red;
 }
 .sosial {
     display: flex;
@@ -352,7 +289,13 @@ footer p :nth-child(2) {
     background: transparent;
     border: 2px solid red;
 }
-
-
+.garis {
+    width: 1200px;
+    color: red;
+}
+.end {
+    text-align: center;
+    padding-top: 30px;
+}
 
 
